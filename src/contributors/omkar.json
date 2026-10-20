@@ -1,0 +1,28 @@
+{
+  "name": "Omkar",
+  "role": "Full-stack developer",
+  "location": "Visakhapatnam, India",
+  "github": "omkardalu",
+  "bio": "B.Tech CSE student who ships small, useful products. Strong on the frontend, building out the backend side one project at a time.",
+  "skills": ["React", "Next.js", "Tailwind CSS", "Node.js"],
+  "projects": [
+    {
+      "name": "ShareWithOTP",
+      "description": "Zero-knowledge file sharing with one-time codes.",
+      "url": "https://sharewithotp.vercel.app"
+    },
+    {
+      "name": "Classroom OS",
+      "description": "Classroom management for orphanages.",
+      "url": "https://gamifiedclassroom.onrender.com"
+    },
+    {
+      "name": "Becoming",
+      "description": "A habit-tracking app built with Next.js.",
+      "url": "https://github.com/omkardalu/becoming"
+    }
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/omkardalu" }
+  ]
+}

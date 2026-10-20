@@ -1,0 +1,18 @@
+{
+  "name": "Your Name",
+  "role": "What you do, e.g. Frontend developer",
+  "location": "City, Country",
+  "github": "your-github-username",
+  "bio": "Two or three sentences about you.",
+  "skills": ["React", "Python"],
+  "projects": [
+    {
+      "name": "Project name",
+      "description": "One line about it.",
+      "url": "https://example.com"
+    }
+  ],
+  "links": [
+    { "label": "Portfolio", "url": "https://example.com" }
+  ]
+}
