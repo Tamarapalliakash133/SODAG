@@ -1,72 +1,27 @@
 @import "tailwindcss";
 
-:root {
-  font-family: Arial, sans-serif;
-  color: #1f2937;
-  background: #f9fafb;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+@theme {
+  --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --color-paper: #f2f5f9;
+  --color-ink: #0f1b2d;
+  --color-cobalt: #2f4bff;
 }
 
-body {
-  min-width: 320px;
-  margin: 0;
-}
-
-a {
-  color: #2563eb;
-}
-
-.site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem 2rem;
-  background: #fff;
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.site-header nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.site-title {
-  color: inherit;
-  font-size: 1.25rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.page-content {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.contributor-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
-}
-
-.contributor-card {
-  padding: 1rem;
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
-}
-
-@media (max-width: 480px) {
-  .site-header {
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 1rem;
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
   }
 
-  .page-content {
-    padding: 1.5rem 1rem;
+  body {
+    min-width: 320px;
+    margin: 0;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-cobalt);
+    outline-offset: 2px;
   }
 }
