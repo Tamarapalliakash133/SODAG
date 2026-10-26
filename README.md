@@ -25,3 +25,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 ## Deploying
 
 The site is a single-page app, so the host must serve `index.html` for unknown paths. `vercel.json` (Vercel) and `public/_redirects` (Netlify, Cloudflare Pages) already do this.
+
+
+# end to end student attendance management system
